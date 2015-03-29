@@ -1,7 +1,7 @@
 ![MQTT](img/mqtt-logo.png)
 
-# Why I like MQTT
-a quick MQTT intro
+# MQTT is awesome!
+MQTT from a practical perspective
 
 
 !SLIDE
@@ -9,7 +9,7 @@ a quick MQTT intro
 # MQTT
 “_MQTT is a machine-to-machine/Internet of Things connectivity protocol_”
 
-[MQTT.org](http://mqtt.org)
+<small>[MQTT.org](http://mqtt.org)</small>
 
 
 !SUB
