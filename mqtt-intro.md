@@ -6,7 +6,7 @@ MQTT from a practical perspective
 
 !SLIDE
 ![MQTT](img/mqtt-logo.png)
-# MQTT
+## MQTT
 “_MQTT is a machine-to-machine/Internet of Things connectivity protocol_”
 
 <small>[MQTT.org](http://mqtt.org)</small>
@@ -76,6 +76,25 @@ Hundreds of thousands of concurrent connections easily possible for a single bro
 !SLIDE
 ## Easy to implement
 
+!SUB
+## Microntroller support
+![ESP8266](img/mqtt-embedded.png)
+
+!SUB
+## Microntroller support
+- Generic embedded support
+  - ANSI C client
+  - Higher level C & C++ clients
+
+!SUB
+## Microntroller support
+- Device specific support
+  - Arduino
+  - ESP8266
+  - mbed
+  - Launchpad
+  - etc.
+
 
 !SLIDE
 ## Why it's a perfect match for IoT
@@ -91,7 +110,7 @@ Born from a realistic view at the IoT landscape:
 - Many individually connected things that don't work together
 
 !SUB
-MQTT is the perfect "glue" to wire all these disconnected things together 
+MQTT is the perfect "glue" to wire all these disconnected things together.
 
 !SUB
 ## Takeway
