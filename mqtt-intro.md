@@ -48,7 +48,7 @@ But because it's so lightweight it's possible to run it on memory, CPU and power
 
 !SUB <!-- .element: data-transition="none" -->
 
-## Computer
+## PC
 ![Laptop](img/laptop.png) <!-- .element: class="round" -->
 
 !SUB <!-- .element: data-transition="none" -->
@@ -81,6 +81,10 @@ Hundreds of thousands of concurrent connections easily possible for a single bro
 ## Why it's a perfect match for IoT
 
 !SUB
+### Fragmentation
+We commit to a common way of communication between components vs commit to the extension mechanism one application offers (or even worse, commit to a monolith)
+
+!SUB
 Born from a realistic view at the IoT landscape:
 
 - IoT currently vendor controller
@@ -89,17 +93,7 @@ Born from a realistic view at the IoT landscape:
 !SUB
 MQTT is the perfect "glue" to wire all these disconnected things together 
 
-
-!SLIDE
-### Fragmentation
-We commit to a common way of communication between components vs commit to the extension mechanism one application offers (or even worse, commit to a monolith)
-
-
-!SLIDE
-### Polyglot!
-
-
-!SLIDE
+!SUB
 ## Takeway
 MQTT = IoT facilitator
 
@@ -109,6 +103,7 @@ MQTT = IoT facilitator
 
 - QoS support
 - Websockets support integrated into several brokers
+- Enables microservices & polyglot like architecture for IoT
 
 
 !SLIDE
