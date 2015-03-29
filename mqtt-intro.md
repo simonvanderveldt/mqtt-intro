@@ -34,12 +34,12 @@ But because it's so lightweight it's possible to run it on memory, CPU and power
 !SUB <!-- .element: data-transition="none" -->
 
 ## Microcontrollers
-![Arduino](img/Arduino.png) <!-- .element: class="round" -->
+![Arduino](img/arduino.png) <!-- .element: class="round" -->
 
 !SUB <!-- .element: data-transition="none" -->
 
 ## Single board computers
-![Raspberry](img/Raspberry-pi.png) <!-- .element: class="round" -->
+![Raspberry](img/raspberry-pi.png) <!-- .element: class="round" -->
 
 !SUB <!-- .element: data-transition="none" -->
 
