@@ -3,3 +3,11 @@
 	box-shadow: none;
 	background: transparent;
 }
+
+.reveal section img.round {
+	background-color: rgba(255, 255, 255, 0.12);
+	border-radius: 50%;
+	width: 320px;
+	height: 320px; 
+	/* width and height can be anything, as long as they're equal */
+}
