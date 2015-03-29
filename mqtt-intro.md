@@ -78,7 +78,7 @@ Hundreds of thousands of concurrent connections easily possible for a single bro
 
 !SUB
 ## Microntroller support
-![ESP8266](img/mqtt-embedded.png)
+![Embedded MQTT](img/mqtt-embedded.png)
 
 !SUB
 ## Microntroller support
@@ -94,6 +94,14 @@ Hundreds of thousands of concurrent connections easily possible for a single bro
   - mbed
   - Launchpad
   - etc.
+
+!SUB
+## Programming language support
+![MQTT Programming Languages](img/mqtt-languages.png)
+
+!SUB
+## Programming language support
+Basically every language has an MQTT library :)
 
 
 !SLIDE
