@@ -29,7 +29,7 @@ A lightweight, scalable and portable pub/sub based message protocol that's very 
 
 !NOTE
 The basic implementations are in C, just like any other piece of software this will run no problem on a Raspberry Pi.
-But because it's so lightweight it's possible to run it on memory and CPU limited devices as well. It basically runs anywhere.
+But because it's so lightweight it's possible to run it on memory, CPU and power limited devices as well. It basically runs anywhere.
 
 !SUB <!-- .element: data-transition="none" -->
 
@@ -60,6 +60,18 @@ But because it's so lightweight it's possible to run it on memory and CPU limite
 !SLIDE
 ## Scalable
 
+!SUB
+## Real-world use
+Used as the message protocol for Facebook Messenger
+
+<small>[Lucy Zhang @ Facebook](https://www.facebook.com/notes/facebook-engineering/building-facebook-messenger/10150259350998920)
+
+!SUB
+## Low on resources
+Hundreds of thousands of concurrent connections easily possible for a single broker
+
+<small>[Henrik Sjöstrand @ IBM](http://www.slideshare.net/henriksjostrand/devmobile-2013-low-latencymessagingusingmqtt#10)</small>
+
 
 !SLIDE
 ## Easy to implement
@@ -82,5 +94,31 @@ MQTT is the perfect "glue" to wire all these disconnected things together
 ### Fragmentation
 We commit to a common way of communication between components vs commit to the extension mechanism one application offers (or even worse, commit to a monolith)
 
+
 !SLIDE
 ### Polyglot!
+
+
+!SLIDE
+## Takeway
+MQTT = IoT facilitator
+
+
+!SLIDE
+## Also
+
+- QoS support
+- Websockets support integrated into several brokers
+
+
+!SLIDE
+## Interested?
+
+!SUB
+## Get started!
+
+- Get a [broker](https://github.com/mqtt/mqtt.github.io/wiki/servers)
+  - Mosquitto comes recommended
+    - [simonvanderveldt/mosquitto](https://registry.hub.docker.com/u/simonvanderveldt/mosquitto/) Docker image
+- Get a [client library](https://github.com/mqtt/mqtt.github.io/wiki/libraries) for your platform/language of choice
+- Start coding!
