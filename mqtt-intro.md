@@ -82,18 +82,18 @@ Hundreds of thousands of concurrent connections easily possible for a single bro
 
 !SUB
 ## Microntroller support
-- Generic embedded support
-  - ANSI C client
-  - Higher level C & C++ clients
+#### embedded
+- ANSI C client
+- Higher level C & C++ clients
 
 !SUB
 ## Microntroller support
-- Device specific support
-  - Arduino
-  - ESP8266
-  - mbed
-  - Launchpad
-  - etc.
+#### Device specific
+- Arduino
+- ESP8266
+- mbed
+- Launchpad
+- etc.
 
 !SUB
 ## Programming language support
@@ -105,32 +105,39 @@ Basically every language has an MQTT library :)
 
 
 !SLIDE
-## Why it's a perfect match for IoT
+## MQTT & IoT
+### A perfect match
 
 !SUB
-### Fragmentation
-We commit to a common way of communication between components vs commit to the extension mechanism one application offers (or even worse, commit to a monolith)
+## Current state of IoT
+
+Vendor controlled market
+
+&#8595;<!-- .element: class="fragment" data-fragment-index="1" -->
+
+Vendor specific protocols and implementations<!-- .element: class="fragment" data-fragment-index="2" -->
+
+&#8595;<!-- .element: class="fragment" data-fragment-index="3" -->
+
+No interoperability<!-- .element: class="fragment" data-fragment-index="4" -->
 
 !SUB
-Born from a realistic view at the IoT landscape:
-
-- IoT currently vendor controller
-- Many individually connected things that don't work together
+## MQTT to the resque
+MQTT is the perfect "glue" to wire all these disconnected things together
 
 !SUB
-MQTT is the perfect "glue" to wire all these disconnected things together.
+![MQTT as IoT glue](img/mqtt-iot-glue.png)
 
 !SUB
-## Takeway
-MQTT = IoT facilitator
+## Well this seems familiar
+It's basically a microservice & polyglot architecture for IoT ;)
 
 
 !SLIDE
 ## Also
 
 - QoS support
-- Websockets support integrated into several brokers
-- Enables microservices & polyglot like architecture for IoT
+- Websocket support integrated into several brokers
 
 
 !SLIDE
